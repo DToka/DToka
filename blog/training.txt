@@ -1,0 +1,51 @@
+Weight training absolute basics
+By Dmitry Tokarev
+
+1. Stimulus
+a) Volume - Total work
+b) Intensity - % of maximum
+c) Frequency - How often you experience the stimulus
+
+Any kind of training puts a stress/stimulus on the body. This stimulus can be categorized in the above 3 types. If you can only lift 100lbs which is your 1 rep max(1RM), volume would be the number of sets and reps you would do at a certain % of 100lbs. If you are doing 5x5 at 80% or 80lbs you are getting 2000lbs of volume. If you are lifting this 3 times a week this increases the stress on your body compared to doing it once a week.
+
+Volume stimulus is the primary cause of muscular hypertrophy.
+Intensity trains the motor neurons that allow you to activate more muscles and move the weight more efficiently.
+Frequency allows you to balance the 2 types. If you are able to activate more muscle fibers and move heavier weight you will be able to increase the amount of volume you do which increases muscle size. And muscle size is the main determinant of strength.
+
+Note on failure: Going to failure gives you additional volume since you are capable of doing more reps, and the more a muscle is fatigued the more fibers activate so going to absolute failure will produce the maximum amount of volume and intensity types of stimulation in 1 set. But this type of training produces a lot of stress especially on the peripheral nervous system and will take a long time to recovery from.
+
+2. Recovery
+
+After you apply some kind of stress on your body, the body must recover from it. If there is unsufficient recovery the body doesn't adapt to the stress. For weight training the main ways of increasing recovery is increasing protein intake, sleep, other nutrient intakes, total caloric intake, active recovery(light cardio, massages, stretching). 
+
+Training is mostly maintaining a good balance between the stress and recovery from that stress. If you are recovering more than stimulating you will continuely make progress and continue adapting.
+
+The adaptation to the stress follows a logarithmic curve so there are a lot of diminishing returns. This requires more and stronger stimulation through higher volumes/frequencies/intensities which requires an even higher amount of recovery in order to adapt.
+
+Recovering from volume training is mostly about following the basics. Recovering from intense training to failure requires you to take time off and allow the nervous system to reset.
+
+3. Adaptation
+
+The process of adaptation involves 2 parts. The first is nutrient partitioning. After a stimulus there are processes that make your body want to build muscle, this requires protein. The body allocates some protein from your diet into building the muscle so it adapts to the stress. The muscles get bigger and are capable of lifting either heavier weights, or doing more work with the weights or both. 
+
+The second is the motor neurons that get the muscles to activate more efficiently, and they train the movement to make it easier on the muscles. The more you do a movement the better you get at it and are capable of activating more muscles while doing that movement.
+
+4. Hormones/Steroids
+
+Hormones are part of the biochemistry of the body and they control various processes. By introducing foreign substances into your body you change the processes of your body. Anabolic steroids change the way nutrients are partioned in the body which produces a large adaptation even without a stimulus, and increase recovery when there is a stimulus. 
+
+This does not increase tendon recovery by a proportional amount which is why many people on steroids tend to hurt themselves when they lift heavy.
+
+5. Recommendations.
+
+So, how does all this information should be used when training or following a program? Most program don't specifiy how hard you should be training, and every individual's recovery and adaptation to different types of stimulus is different. One person can do 90% volume based training and make 0 progress, but if they switch to 90% intensity style training they will make amazing progress, and vice versa for someone else. Most people are somewhere in between but volume should always take priority for the majority. Experimentation through trial and error is how you discover how best your body adapts. Do a high intensity program for a month, then do a high volume program for a month, then do something in between and see which one you enjoyed most and got the best results.
+
+That being said, the fundamentals will not change. Any individual must provide some stimulus and then recovery in order to adapt. 
+
+Once you find what kind of style you best respond to you will try to maximize the recovery you can possibly have in order to maximize the stimulus. After a training session you will also have to figure out when you are recovered or close to being recovered so you can train again. This is an intuitive thing, but a good indicator is if you are able to match or out do the previous training session. 
+
+On any training program you will want to make sure you are recovered between training sessions unless they have a deload week where you want to be over stressed in order to recover during that deload week. The best way to regulate this during a training program is to limit how hard you are training and reduce your estimated maximum 1RM.
+
+6. Periodization
+
+It may also be useful to add periodization to vary the type of stimulus since your body gets used to the stimulus. Even taking a few weeks off occassionally may be more effective than non-stop training for the average person.

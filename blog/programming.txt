@@ -1,0 +1,40 @@
+Basics of programming
+By Dmitry Tokarev
+
+1. Abstraction
+
+When you write a program that creates a new blank window, that language uses multiple different abstractions in order to create the window. It makes a call to the graphical environment you are running, that is running on a windowing system, which runs on an operating system uses a driver to communicate with the GPU which then sends bits through a cable into your monitor, which has it's own processor to determine how to display those bits. 
+
+To fully understand each step in such an elaborate process is certainly a very difficult task. And to write such a program from scratch to only display a window from scratch would certainly be a large undertaking. You would have to write an operating system for your processor, write a driver for your graphics device and so on. 
+
+This is simply not achievable by a single individual in a reasonable amount of time. It would also be extremely difficult to think about because when you write programs you have to understand more or less how the program is operating. Without understanding what is happening programs become susceptible to errors. As a result, we need a way to simplify many of those steps or even hide them so we do not have know how every part works. This is done by abstracting things away. When you create a new window in C you call a library or API to create a window for you. 
+
+2. Instructions
+
+At the very base level of these abstractions for programmers is the instruction set that the CPU supports. The instruction set supports basic commands like load, store, bit shift, arthimatic(add, subtract), logical, comparisons, branches, and jumps. All of these instructions can manipulate information which can produce everything we see on our computers. 
+
+As you go up the level of abstraction, you don't have to think about what block or sector and with which head you have to use to read the data you have stored on the disc. You can simply call a method which reads the file for you, and put the data in a variable. 
+
+At higher level of abstractions and high level programming languages, the basic instructions and how you have to think about things change. In something like Javascript we have instructions like setting a variable to some value. We can do mathematical operations on those variables. We can run looks, do conditional if statements and call other methods that already do certain things like sending HTTP requests over the internet.
+
+Once we understand what abstractions we are working on top of, and what instructions the language we are using supports, we can start coding whatever we want.
+
+3. Information
+
+But before we start coding we have to keep in mind how we are going to code things. Since everything in a computer is just binary information. Information theory is all about how we can use that information. And that information can represent things. As a result, we have standards that many people follow so we do not have to figure out how certain information is represented every time we come across it. One example is the ASCII standard where the decimal 48 represents the character '0', 49 for '1' and so on. Letter A is '65' and Z is '90'. IBM used to use the EBCDIC encoding which wasn't really a standard but a joke to anyone not using it. Anyone can come up with their own encodings or representations for any type of data they want. But popular formats and encodings such as mp3 and jpg are all defined and do not have to be recreated every time someone wants to use pictures or music. Those are compression formats but not many people use raw file formats for audio and photo due to space limitations. You get the idea.
+
+4. Coding
+
+As an example take a program for a calculator. To do calculations we have to enter in numbers, operators and brackets for the order of operations. We can ask the user to input what they want to calculate through some function that exists behind some abstraction. In C we can use scanf(), with C++ we can use "cin >> x". You can be curious and read about how the language gets the input at a lower level but that is not necessary for building a simple calculator. We must then take this input not as numbers but as characters, if the character is 0, we know the input is 0 but represented as the integer 48 according to the ASCII encoding, which we then turn into the number it represents. For ASCII we can use subtract 48. We parse through each input and figure out if each character is a number or an operator. If we want to add 2 numbers we must check if there is a + symbol between 2 numbers and then just use the mathematical instructions avaliable with the language to add those 2 numbers. We can do this through conditionals built into the language. We can then create an structure or object that can represent smaller operations in the calculator which will be needed for dealing with orders of operation. We can parse through the user input, and find instructions that are between opening and closing brackets and put them inside such a structure(provided there are no more brackets inside those brackets). We can then solve those smaller calculations and use the results as a number for the other equations. Through some logic and thinking we can then expand this to solve equations arbitrarly large.
+
+How you put the conditionals together, and how you create the object that holds smaller calculations inside it is a puzzle that you must figure out for every non-trivial program. This is the fun, and the hard part of programming. You must understand what you want and how to get it. Be able to break the problem apart into smaller chunks to make it easier to reason about.
+
+Fundamentally, the very basic and simple instructions you put together become extremely complex when putting them in a specific manner in order to solve a problem. The larger the problem the more code you have to write and the complexity grows faster than the instructions because we have a limit to how much information we can think about at once. Therefore when you get larger and larger programs, you will have to abstract your own code into methods to make building bigger methods easier.
+
+5. Tips
+
+To learn abstractions you can learn about software design patterns, such as inheritance, composition. Learn about APIs and libraries. 
+
+To learn a language it is best so speak it as often as you can. C++ and Javascript are languages that are important and used almost everywhere. Reading the language specification and documentation will be involve reading a 1000+ page bland and mostly uninteresting book. You can use them as references and supplementary to learn about things you don't understand. Being patient and learning these things over time is the best approach.
+
+Coming up with problems to solve in order to practice programming can either be the hardest, or the easiest part if you want your program to have value. The easy way is to reimplement what other people have done and try to make it better. The harder way is to come up with novel ideas that people will want to buy with their own money. Another good way is to find problems with current open source software you are using, or features you would like to see implemented and try to make those changes yourself. Starting with something small like understanding the code and making sure you are building and testing the software correctly will teach you a lot even without having to write any code.
